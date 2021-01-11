@@ -3,11 +3,24 @@
     <head>
         <title>You will be redirect...</title>
 
-        <script>
+        <!-- script>
             window.location.href = "http://185.216.25.21:3000/login"
-        </script>
+        </script> -->
     </head>
     <body>
-        <p>You are not redirected? <a href="http://185.216.25.21:3000/login">Click here</a></p>
+        <!-- <p>You are not redirected? <a href="http://185.216.25.21:3000/login">Click here</a></p> -->
+
+        <iframe
+            src="http://185.216.25.21:3000/login"
+            width="100%" height="auto"
+            sandbox>
+            <p>
+                <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/">
+                Un lien à utiliser dans les cas où les navigateurs ne supportent
+                pas les <i>iframes</i>.
+                </a>
+            </p>
+        </iframe>
+
     </body>
 </html>
